@@ -16,6 +16,5 @@ class TouchableHighlight  extends React.Component {}
 ReactNative.View = View;
 ReactNative.Text = Text;
 ReactNative.TouchableHighlight = TouchableHighlight;
-ReactNative.TouchableWithoutFeedback = View;
 
 module.exports = ReactNative;
