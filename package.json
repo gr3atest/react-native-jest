@@ -5,7 +5,9 @@
     "scriptPreprocessor": "jestSupport/scriptPreprocess.js",
     "unmockedModulePathPatterns": [
       "node_modules"
-    ]
+    ],
+    "verbose": true,
+    "collectCoverage": true
   },
   "scripts": {
     "test": "jest"
@@ -24,6 +26,7 @@
     "enzyme": "^2.3.0",
     "jest-cli": "0.8.2",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-native-mock": "^0.2.3"
   }
 }
