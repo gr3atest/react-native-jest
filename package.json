@@ -2,9 +2,6 @@
   "name": "ReactNativeJest",
   "version": "0.0.1",
   "jest": {
-    "globals": {
-      "__DEV__": true
-    },
     "scriptPreprocessor": "jestSupport/scriptPreprocess.js",
     "unmockedModulePathPatterns": [
       "node_modules"
