@@ -12,10 +12,10 @@ describe("<Home />", () => {
     const homeComponent = shallow(<Home />);
 
     expect(homeComponent
-	  .find(Text)
-	  .first()
-	  .props()
-	  .children
-	).to.equal("React Native Test Examples");
+      .find(Text)
+      .first()
+      .props()
+      .children
+    ).to.equal("React Native Test Examples");
   });
 });
