@@ -5,9 +5,10 @@
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
       "node_modules"
-    ],
-    "verbose": true,
-    "collectCoverage": true
+    ]
+  },
+  "babel": {
+    "presets": ["react-native"]
   },
   "scripts": {
     "test": "jest"
@@ -19,7 +20,6 @@
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-jest": "^12.1.0",
-    "babel-plugin-transform-regenerator": "^6.0.18",
     "babel-polyfill": "^6.0.16",
     "babel-preset-react-native": "^1.9.0",
     "babel-types": "^6.1.2",
