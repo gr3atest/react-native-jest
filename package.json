@@ -8,7 +8,9 @@
     ]
   },
   "babel": {
-    "presets": ["react-native"]
+    "presets": [
+      "react-native"
+    ]
   },
   "scripts": {
     "test": "jest"
@@ -27,6 +29,7 @@
     "enzyme": "^2.3.0",
     "jest-cli": "^12.1.1",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-native-mock": "^0.2.3"
   }
 }
